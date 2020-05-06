@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="61714" started-at="2020-05-06T09:46:16Z" finished-at="2020-05-06T09:47:18Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="61714" started-at="2020-05-06T09:46:16Z" finished-at="2020-05-06T09:47:18Z">
+      <class name="com.project.testcase.ApparelSearch">
+        <test-method status="PASS" signature="ApparelBrowser(java.lang.String)[pri:0, instance:com.project.testcase.ApparelSearch@21bcffb5]" name="ApparelBrowser" is-config="true" duration-ms="23364" started-at="2020-05-06T09:46:16Z" finished-at="2020-05-06T09:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApparelBrowser -->
+        <test-method status="PASS" signature="signIn(java.util.Hashtable)[pri:1, instance:com.project.testcase.ApparelSearch@21bcffb5]" name="signIn" duration-ms="8853" started-at="2020-05-06T09:46:43Z" data-provider="getloginData" finished-at="2020-05-06T09:46:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Enjoy4343, email=tipsytop86@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="searchApparel(java.util.Hashtable)[pri:2, instance:com.project.testcase.ApparelSearch@21bcffb5]" name="searchApparel" duration-ms="8193" started-at="2020-05-06T09:46:52Z" data-provider="getSearchData" finished-at="2020-05-06T09:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Search=Dresses, Quantity=7}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApparel -->
+        <test-method status="PASS" signature="searchApparel(java.util.Hashtable)[pri:2, instance:com.project.testcase.ApparelSearch@21bcffb5]" name="searchApparel" duration-ms="7942" started-at="2020-05-06T09:47:01Z" data-provider="getSearchData" finished-at="2020-05-06T09:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Search=T-Shirt, Quantity=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApparel -->
+        <test-method status="PASS" signature="SignOut()[pri:3, instance:com.project.testcase.ApparelSearch@21bcffb5]" name="SignOut" duration-ms="4172" started-at="2020-05-06T09:47:08Z" finished-at="2020-05-06T09:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.project.testcase.ApparelSearch@21bcffb5]" name="CloseBrowser" is-config="true" duration-ms="5016" started-at="2020-05-06T09:47:13Z" finished-at="2020-05-06T09:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.project.testcase.ApparelSearch -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
