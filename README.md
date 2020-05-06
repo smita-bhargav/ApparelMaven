@@ -54,6 +54,6 @@ Configurability-No hard coded data- done
 
 Test Data-Coming from xlsx file
 
-Report-Both format report generation done
+Report-Both format report(TestNg and ReportNg) generation done
 
 
